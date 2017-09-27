@@ -1,7 +1,7 @@
-books = ["Charlie and the Chocolate Factory", "War and Peace", "Utopia", "A Brief History of Time", "A Wrinkle in Time"]
+fruits = ["orange", "apple", "banana", "pear", "grapes"]
 
-books.sort! { |firstBook, secondBook| firstBook <=> secondBook }
-puts books
+fruits.sort! {|first_fruit , second_fruit| first_fruit <=> second_fruit}
+print fruits
 
-books.sort! {|firstBook, secondBook| secondBook <=> firstBook}
-puts books
+fruits.sort! {|first_fruit , second_fruit| second_fruit <=>first_fruit}
+print fruits
