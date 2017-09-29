@@ -1,2 +1,2 @@
 # Ruby
-Ruby study for learning purposes
+Ruby examples for use in application 
